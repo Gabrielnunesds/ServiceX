@@ -31,7 +31,7 @@ public class CategoriaResource {
     @Autowired
     private CategoriaService categoriaService;
 
-    @Operation(summary = "Cadastrar Categoria", description = "O recurso permite cadastrar, porém não pode repetir o mesmo nome.")
+    @Operation(summary = "Cadast!rar Categoria", description = "O recurso permite cadastrar, porém não pode repetir o mesmo nome.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Cadastro com sucesso",
                     content = @Content(
